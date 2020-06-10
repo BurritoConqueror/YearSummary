@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4241954F243CDE0600FFB931 /* MenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4241954E243CDE0600FFB931 /* MenuScene.sks */; };
+		42419551243CDF9900FFB931 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42419550243CDF9900FFB931 /* MenuScene.swift */; };
+		42EBC1132412B29C00CC5F37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EBC1122412B29C00CC5F37 /* AppDelegate.swift */; };
+		42EBC1152412B29C00CC5F37 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 42EBC1142412B29C00CC5F37 /* GameScene.sks */; };
+		42EBC1172412B29C00CC5F37 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 42EBC1162412B29C00CC5F37 /* Actions.sks */; };
+		42EBC1192412B29C00CC5F37 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EBC1182412B29C00CC5F37 /* GameScene.swift */; };
+		42EBC11B2412B29C00CC5F37 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EBC11A2412B29C00CC5F37 /* GameViewController.swift */; };
+		42EBC11E2412B29C00CC5F37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EBC11C2412B29C00CC5F37 /* Main.storyboard */; };
+		42EBC1202412B29E00CC5F37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42EBC11F2412B29E00CC5F37 /* Assets.xcassets */; };
+		42EBC1232412B29E00CC5F37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EBC1212412B29E00CC5F37 /* LaunchScreen.storyboard */; };
+		42EBC12E2412B29E00CC5F37 /* Air_HockeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EBC12D2412B29E00CC5F37 /* Air_HockeyTests.swift */; };
+		42EBC1392412B29E00CC5F37 /* Air_HockeyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EBC1382412B29E00CC5F37 /* Air_HockeyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42EBC12A2412B29E00CC5F37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42EBC1072412B29C00CC5F37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42EBC10E2412B29C00CC5F37;
+			remoteInfo = "Air Hockey";
+		};
+		42EBC1352412B29E00CC5F37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42EBC1072412B29C00CC5F37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42EBC10E2412B29C00CC5F37;
+			remoteInfo = "Air Hockey";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4241954E243CDE0600FFB931 /* MenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MenuScene.sks; sourceTree = "<group>"; };
+		42419550243CDF9900FFB931 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		42EBC10F2412B29C00CC5F37 /* Air Hockey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Air Hockey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EBC1122412B29C00CC5F37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42EBC1142412B29C00CC5F37 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		42EBC1162412B29C00CC5F37 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		42EBC1182412B29C00CC5F37 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		42EBC11A2412B29C00CC5F37 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		42EBC11D2412B29C00CC5F37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42EBC11F2412B29E00CC5F37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42EBC1222412B29E00CC5F37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42EBC1242412B29E00CC5F37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EBC1292412B29E00CC5F37 /* Air HockeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Air HockeyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EBC12D2412B29E00CC5F37 /* Air_HockeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Air_HockeyTests.swift; sourceTree = "<group>"; };
+		42EBC12F2412B29E00CC5F37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EBC1342412B29E00CC5F37 /* Air HockeyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Air HockeyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EBC1382412B29E00CC5F37 /* Air_HockeyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Air_HockeyUITests.swift; sourceTree = "<group>"; };
+		42EBC13A2412B29E00CC5F37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42EBC10C2412B29C00CC5F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EBC1262412B29E00CC5F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EBC1312412B29E00CC5F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42EBC1062412B29C00CC5F37 = {
+			isa = PBXGroup;
+			children = (
+				42EBC1112412B29C00CC5F37 /* Air Hockey */,
+				42EBC12C2412B29E00CC5F37 /* Air HockeyTests */,
+				42EBC1372412B29E00CC5F37 /* Air HockeyUITests */,
+				42EBC1102412B29C00CC5F37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42EBC1102412B29C00CC5F37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42EBC10F2412B29C00CC5F37 /* Air Hockey.app */,
+				42EBC1292412B29E00CC5F37 /* Air HockeyTests.xctest */,
+				42EBC1342412B29E00CC5F37 /* Air HockeyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42EBC1112412B29C00CC5F37 /* Air Hockey */ = {
+			isa = PBXGroup;
+			children = (
+				42EBC1122412B29C00CC5F37 /* AppDelegate.swift */,
+				4241954E243CDE0600FFB931 /* MenuScene.sks */,
+				42EBC1142412B29C00CC5F37 /* GameScene.sks */,
+				42419550243CDF9900FFB931 /* MenuScene.swift */,
+				42EBC1162412B29C00CC5F37 /* Actions.sks */,
+				42EBC1182412B29C00CC5F37 /* GameScene.swift */,
+				42EBC11A2412B29C00CC5F37 /* GameViewController.swift */,
+				42EBC11C2412B29C00CC5F37 /* Main.storyboard */,
+				42EBC11F2412B29E00CC5F37 /* Assets.xcassets */,
+				42EBC1212412B29E00CC5F37 /* LaunchScreen.storyboard */,
+				42EBC1242412B29E00CC5F37 /* Info.plist */,
+			);
+			path = "Air Hockey";
+			sourceTree = "<group>";
+		};
+		42EBC12C2412B29E00CC5F37 /* Air HockeyTests */ = {
+			isa = PBXGroup;
+			children = (
+				42EBC12D2412B29E00CC5F37 /* Air_HockeyTests.swift */,
+				42EBC12F2412B29E00CC5F37 /* Info.plist */,
+			);
+			path = "Air HockeyTests";
+			sourceTree = "<group>";
+		};
+		42EBC1372412B29E00CC5F37 /* Air HockeyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42EBC1382412B29E00CC5F37 /* Air_HockeyUITests.swift */,
+				42EBC13A2412B29E00CC5F37 /* Info.plist */,
+			);
+			path = "Air HockeyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42EBC10E2412B29C00CC5F37 /* Air Hockey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42EBC13D2412B29E00CC5F37 /* Build configuration list for PBXNativeTarget "Air Hockey" */;
+			buildPhases = (
+				42EBC10B2412B29C00CC5F37 /* Sources */,
+				42EBC10C2412B29C00CC5F37 /* Frameworks */,
+				42EBC10D2412B29C00CC5F37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Air Hockey";
+			productName = "Air Hockey";
+			productReference = 42EBC10F2412B29C00CC5F37 /* Air Hockey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42EBC1282412B29E00CC5F37 /* Air HockeyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42EBC1402412B29E00CC5F37 /* Build configuration list for PBXNativeTarget "Air HockeyTests" */;
+			buildPhases = (
+				42EBC1252412B29E00CC5F37 /* Sources */,
+				42EBC1262412B29E00CC5F37 /* Frameworks */,
+				42EBC1272412B29E00CC5F37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42EBC12B2412B29E00CC5F37 /* PBXTargetDependency */,
+			);
+			name = "Air HockeyTests";
+			productName = "Air HockeyTests";
+			productReference = 42EBC1292412B29E00CC5F37 /* Air HockeyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42EBC1332412B29E00CC5F37 /* Air HockeyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42EBC1432412B29E00CC5F37 /* Build configuration list for PBXNativeTarget "Air HockeyUITests" */;
+			buildPhases = (
+				42EBC1302412B29E00CC5F37 /* Sources */,
+				42EBC1312412B29E00CC5F37 /* Frameworks */,
+				42EBC1322412B29E00CC5F37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42EBC1362412B29E00CC5F37 /* PBXTargetDependency */,
+			);
+			name = "Air HockeyUITests";
+			productName = "Air HockeyUITests";
+			productReference = 42EBC1342412B29E00CC5F37 /* Air HockeyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42EBC1072412B29C00CC5F37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = 90302781;
+				TargetAttributes = {
+					42EBC10E2412B29C00CC5F37 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					42EBC1282412B29E00CC5F37 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 42EBC10E2412B29C00CC5F37;
+					};
+					42EBC1332412B29E00CC5F37 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 42EBC10E2412B29C00CC5F37;
+					};
+				};
+			};
+			buildConfigurationList = 42EBC10A2412B29C00CC5F37 /* Build configuration list for PBXProject "Air Hockey" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42EBC1062412B29C00CC5F37;
+			productRefGroup = 42EBC1102412B29C00CC5F37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42EBC10E2412B29C00CC5F37 /* Air Hockey */,
+				42EBC1282412B29E00CC5F37 /* Air HockeyTests */,
+				42EBC1332412B29E00CC5F37 /* Air HockeyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42EBC10D2412B29C00CC5F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EBC11E2412B29C00CC5F37 /* Main.storyboard in Resources */,
+				4241954F243CDE0600FFB931 /* MenuScene.sks in Resources */,
+				42EBC1152412B29C00CC5F37 /* GameScene.sks in Resources */,
+				42EBC1202412B29E00CC5F37 /* Assets.xcassets in Resources */,
+				42EBC1232412B29E00CC5F37 /* LaunchScreen.storyboard in Resources */,
+				42EBC1172412B29C00CC5F37 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EBC1272412B29E00CC5F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EBC1322412B29E00CC5F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42EBC10B2412B29C00CC5F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EBC1192412B29C00CC5F37 /* GameScene.swift in Sources */,
+				42419551243CDF9900FFB931 /* MenuScene.swift in Sources */,
+				42EBC11B2412B29C00CC5F37 /* GameViewController.swift in Sources */,
+				42EBC1132412B29C00CC5F37 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EBC1252412B29E00CC5F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EBC12E2412B29E00CC5F37 /* Air_HockeyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EBC1302412B29E00CC5F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EBC1392412B29E00CC5F37 /* Air_HockeyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42EBC12B2412B29E00CC5F37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42EBC10E2412B29C00CC5F37 /* Air Hockey */;
+			targetProxy = 42EBC12A2412B29E00CC5F37 /* PBXContainerItemProxy */;
+		};
+		42EBC1362412B29E00CC5F37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42EBC10E2412B29C00CC5F37 /* Air Hockey */;
+			targetProxy = 42EBC1352412B29E00CC5F37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42EBC11C2412B29C00CC5F37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42EBC11D2412B29C00CC5F37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42EBC1212412B29E00CC5F37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42EBC1222412B29E00CC5F37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42EBC13B2412B29E00CC5F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42EBC13C2412B29E00CC5F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42EBC13E2412B29E00CC5F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2MVW9LT63;
+				INFOPLIST_FILE = "Air Hockey/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BurritoBoy.Air-Hockey";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		42EBC13F2412B29E00CC5F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2MVW9LT63;
+				INFOPLIST_FILE = "Air Hockey/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BurritoBoy.Air-Hockey";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		42EBC1412412B29E00CC5F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2MVW9LT63;
+				INFOPLIST_FILE = "Air HockeyTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BurritoBoy.Air-HockeyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Air Hockey.app/Air Hockey";
+			};
+			name = Debug;
+		};
+		42EBC1422412B29E00CC5F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2MVW9LT63;
+				INFOPLIST_FILE = "Air HockeyTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BurritoBoy.Air-HockeyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Air Hockey.app/Air Hockey";
+			};
+			name = Release;
+		};
+		42EBC1442412B29E00CC5F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2MVW9LT63;
+				INFOPLIST_FILE = "Air HockeyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BurritoBoy.Air-HockeyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Air Hockey";
+			};
+			name = Debug;
+		};
+		42EBC1452412B29E00CC5F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2MVW9LT63;
+				INFOPLIST_FILE = "Air HockeyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BurritoBoy.Air-HockeyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Air Hockey";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42EBC10A2412B29C00CC5F37 /* Build configuration list for PBXProject "Air Hockey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EBC13B2412B29E00CC5F37 /* Debug */,
+				42EBC13C2412B29E00CC5F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42EBC13D2412B29E00CC5F37 /* Build configuration list for PBXNativeTarget "Air Hockey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EBC13E2412B29E00CC5F37 /* Debug */,
+				42EBC13F2412B29E00CC5F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42EBC1402412B29E00CC5F37 /* Build configuration list for PBXNativeTarget "Air HockeyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EBC1412412B29E00CC5F37 /* Debug */,
+				42EBC1422412B29E00CC5F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42EBC1432412B29E00CC5F37 /* Build configuration list for PBXNativeTarget "Air HockeyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EBC1442412B29E00CC5F37 /* Debug */,
+				42EBC1452412B29E00CC5F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42EBC1072412B29C00CC5F37 /* Project object */;
+}
